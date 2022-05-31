@@ -12,8 +12,8 @@ $(document).ready(function() {
         var selected = $(this).val();
         var qrc = new QRCode(document.getElementById("qrcode"), {
             text: selected,
-            width: 128,
-            height: 128,
+            width: 158,
+            height: 158,
             colorDark: "#000000",
             colorLight: "#ffffff",
             correctLevel: QRCode.CorrectLevel.H,
