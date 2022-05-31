@@ -1,0 +1,108 @@
+.people-image {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.website-tite {
+    text-align: center;
+}
+
+.website-tite h1 {
+    margin-bottom: 16px;
+    font-size: 46px;
+    letter-spacing: -2px;
+    color: #002251;
+    font-weight: 700;
+    text-align: center;
+}
+
+.maiar-title {
+    margin-bottom: 16px;
+    font-size: 46px;
+    letter-spacing: -2px;
+    color: #002251;
+    font-weight: 700;
+    text-align: center;
+}
+
+.description-maiar {
+    z-index: 99999;
+    position: relative;
+    font-weight: 300;
+}
+
+.people-image img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.maiar-logo {
+    padding-bottom: 5rem;
+}
+
+.card-container {
+    z-index: 999999;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.custom-message p {
+    font-weight: 500;
+}
+
+.oval-left-container-light-green:after {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color: #27ecbb23;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+}
+
+.oval-left-container-red:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ec2789;
+    right: 60px;
+    bottom: 10px;
+}
+
+.oval-left-container-light-blue:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #22def78e;
+    bottom: 60px;
+    left: 20px;
+    z-index: 1;
+}
+
+.qrcode {
+    min-width: 128px;
+    min-height: 128px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.qrcode-container {
+    display: flex;
+}
+
+.qrcode-text {
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #002251;
+    line-height: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
